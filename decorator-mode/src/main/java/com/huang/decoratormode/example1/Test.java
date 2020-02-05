@@ -1,9 +1,9 @@
-package com.huang.decoratormode;
+package com.huang.decoratormode.example1;
 
-import com.huang.decoratormode.component.Beverage;
-import com.huang.decoratormode.component.Coffee;
-import com.huang.decoratormode.decorator.Milk;
-import com.huang.decoratormode.decorator.Mocha;
+import com.huang.decoratormode.example1.component.Beverage;
+import com.huang.decoratormode.example1.component.Coffee;
+import com.huang.decoratormode.example1.decorator.Milk;
+import com.huang.decoratormode.example1.decorator.Mocha;
 
 /**
  * 以后新增饮料就继承Beverage，新增调料就继承CondimentDecorator

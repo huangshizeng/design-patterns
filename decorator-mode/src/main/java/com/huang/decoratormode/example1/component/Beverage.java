@@ -1,4 +1,4 @@
-package com.huang.decoratormode.component;
+package com.huang.decoratormode.example1.component;
 
 
 /**

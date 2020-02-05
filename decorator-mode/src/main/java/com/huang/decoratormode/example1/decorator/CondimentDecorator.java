@@ -1,6 +1,6 @@
-package com.huang.decoratormode.decorator;
+package com.huang.decoratormode.example1.decorator;
 
-import com.huang.decoratormode.component.Beverage;
+import com.huang.decoratormode.example1.component.Beverage;
 
 /**
  * 调料，装饰者基类

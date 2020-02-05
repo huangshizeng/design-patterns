@@ -1,4 +1,4 @@
-package com.huang.decoratormode.component;
+package com.huang.decoratormode.example1.component;
 
 /**
  * 咖啡类，具体被装饰者
