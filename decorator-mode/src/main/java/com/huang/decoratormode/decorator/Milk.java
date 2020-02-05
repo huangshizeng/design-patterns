@@ -10,10 +10,8 @@ import com.huang.decoratormode.component.Beverage;
 
 public class Milk extends CondimentDecorator {
 
-    private Beverage beverage;
-
     public Milk(Beverage beverage) {
-        this.beverage = beverage;
+        super(beverage);
     }
 
     @Override
