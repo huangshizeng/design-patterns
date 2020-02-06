@@ -11,6 +11,7 @@
 
     <modules>
         <module>decorator-mode</module>
+        <module>proxy-mode</module>
     </modules>
 
     <dependencies>
