@@ -1,4 +1,7 @@
-package com.huang.proxymode.example1;
+package com.huang.proxymode.staticproxy;
+
+import com.huang.proxymode.CarFactory;
+import com.huang.proxymode.SellCar;
 
 /**
  * @author hsz

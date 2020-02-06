@@ -1,4 +1,4 @@
-package com.huang.proxymode.example1;
+package com.huang.proxymode;
 
 /**
  * @author hsz
