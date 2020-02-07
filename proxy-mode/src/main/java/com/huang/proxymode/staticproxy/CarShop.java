@@ -16,6 +16,7 @@ public class CarShop implements SellCar {
     }
 
     public void sellCar() {
+        System.out.println("汽车4S店售出一辆汽车");
         carFactory.sellCar();
     }
 }
