@@ -13,6 +13,7 @@
         <module>decorator-mode</module>
         <module>proxy-mode</module>
         <module>adapter-mode</module>
+        <module>builder-mode</module>
     </modules>
 
     <dependencies>
