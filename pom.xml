@@ -14,6 +14,7 @@
         <module>proxy-mode</module>
         <module>adapter-mode</module>
         <module>builder-mode</module>
+        <module>chain-of-responsibility-mode</module>
     </modules>
 
     <dependencies>
