@@ -13,7 +13,7 @@ public class CalculatorContext {
         this.strategy = StrategyFactory.getInstance().getStrategy(type);
     }
 
-    public void computer(int a, int b) {
+    public void compute(int a, int b) {
         strategy.compute(a, b);
     }
 }
