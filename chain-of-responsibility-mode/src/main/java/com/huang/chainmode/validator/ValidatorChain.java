@@ -1,4 +1,4 @@
-package validator;
+package com.huang.chainmode.validator;
 
 
 import java.util.ArrayList;
