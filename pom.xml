@@ -15,6 +15,7 @@
         <module>adapter-mode</module>
         <module>builder-mode</module>
         <module>chain-of-responsibility-mode</module>
+        <module>template-method-mode</module>
     </modules>
 
     <dependencies>
