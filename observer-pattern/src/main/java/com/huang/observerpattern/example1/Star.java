@@ -21,14 +21,25 @@ public class Star implements Subject {
         this.comment = comment;
     }
 
+    public String getComment() {
+        return comment;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    @Override
     public void registerObserver(Observer observer) {
         observerList.add(observer);
     }
 
+    @Override
     public void removeObserver(Observer observer) {
         observerList.remove(observer);
     }
 
+    @Override
     public void notifyObservers() {
         observerList.forEach(o -> {
             o.update(this, comment);

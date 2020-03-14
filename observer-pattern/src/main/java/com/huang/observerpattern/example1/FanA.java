@@ -8,6 +8,7 @@ public class FanA implements Observer {
 
     @Override
     public void update(Subject subject, Object object) {
-        System.out.println("粉丝A收到发帖:" + object.toString());
+        Star star = (Star) subject;
+        System.out.println("粉丝B收到" + star.getName() + "发帖:" + object.toString());
     }
 }

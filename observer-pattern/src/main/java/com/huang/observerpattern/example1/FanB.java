@@ -7,6 +7,7 @@ package com.huang.observerpattern.example1;
 public class FanB implements Observer {
     @Override
     public void update(Subject subject, Object object) {
-        System.out.println("粉丝B收到发帖:" + object.toString());
+        Star star = (Star) subject;
+        System.out.println("粉丝B收到" + star.getName() + "发帖:" + object.toString());
     }
 }
