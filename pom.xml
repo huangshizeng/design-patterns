@@ -10,14 +10,15 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>decorator-mode</module>
-        <module>proxy-mode</module>
-        <module>adapter-mode</module>
-        <module>builder-mode</module>
-        <module>chain-of-responsibility-mode</module>
-        <module>strategy-mode</module>
-        <module>template-method-mode</module>
+        <module>decorator-pattern</module>
+        <module>proxy-pattern</module>
+        <module>adapter-pattern</module>
+        <module>builder-pattern</module>
+        <module>chain-of-responsibility-pattern</module>
+        <module>strategy-pattern</module>
+        <module>template-method-pattern</module>
         <module>observer-pattern</module>
+        <module>state-pattern</module>
     </modules>
 
     <dependencies>
