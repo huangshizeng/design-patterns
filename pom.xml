@@ -19,6 +19,7 @@
         <module>template-method-pattern</module>
         <module>observer-pattern</module>
         <module>state-pattern</module>
+        <module>command-pattern</module>
     </modules>
 
     <dependencies>
